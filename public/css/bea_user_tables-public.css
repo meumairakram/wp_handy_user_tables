@@ -1,0 +1,21 @@
+ .bea_user_filters {
+    width: 100%;
+    display: grid;
+    float: left;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 3fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.bea_user_filters .filter-wrap {
+    float: left;
+}
+
+h4.bea-ut-error {
+    background: #ffdfdf;
+    padding: 10px;
+    border: 2px solid red;
+    font-size: 15px;
+    text-align: center;
+}
